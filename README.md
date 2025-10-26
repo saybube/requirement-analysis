@@ -131,6 +131,8 @@ Use case diagrams support scope management by clearly showing what's inside the 
 The diagrams serve as a foundation for other development activities. Use cases become the basis for writing detailed use case descriptions, creating user stories in agile development, designing system architecture, and writing test cases. Each use case on the diagram eventually maps to specific implementation tasks and test scenarios.
 Finally, use case diagrams facilitate communication across distributed teams. In modern development, where team members might work in different locations or time zones, a visual diagram serves as a persistent reference that everyone can access and understand, regardless of when they review it.
 
+![UML diagram of Airbnb clone booking management system](https://drive.google.com/uc?export=view&id=1ioc7KJtVuQBqXPL02s9G1VEDgOJyd4oD)
+
 ## Acceptance Criteria
 
 Acceptance criteria are specific, measurable conditions that a feature or requirement must satisfy to be considered complete and acceptable to stakeholders. They define the boundaries of a user story or requirement by stating what must be true for the feature to work correctly from the user's perspective. Acceptance criteria transform vague requirements into concrete, testable conditions that developers can implement and testers can verify. They answer the fundamental question: "How will we know when this feature is done and working correctly?" These criteria serve as a contract between stakeholders and the development team. Before development begins, everyone agrees on what constitutes successful implementation. This agreement prevents misunderstandings where developers build something they think is correct, only to have stakeholders reject it because it doesn't meet their expectations. Acceptance criteria make implicit assumptions explicit, ensuring all parties share the same understanding of what "done" means.
@@ -150,7 +152,7 @@ Given the user is not logged in, when they reach the checkout page, they must se
 * Booking Summary Display
 
 Given the user is on the checkout page, When the page loads, Then a booking summary must be prominently displayed showing hotel name, selected room type(s), check-in date, check-out date, number of nights, number of guests, and nightly rate for each room. The summary must calculate and display the subtotal for room charges, taxes with percentage rate shown, service fees if applicable, and the total amount to be charged. All monetary amounts must display in the user's selected currency with the appropriate currency symbol and decimal places.
-Given that multiple rooms are booked, when the summary displays, then each room must be listed separately with its own nightly rate and subtotal. A total combining all rooms must be clearly displayed and visually distinguished from individual room totals.
+Given that multiple rooms are booked, when the summary displays, each room must be listed separately with its own nightly rate and subtotal. A total combining all rooms must be clearly displayed and visually distinguished from individual room totals.
 
 * Payment Method Selection
 
